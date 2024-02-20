@@ -11,5 +11,5 @@ all:
         ansible_user: admin
         ansible_password: admin
       hosts:
-        clab-device-R1:
-          ansible_host: 
+        clab-Lab2-R1:
+          ansible_host: 192.168.123.2

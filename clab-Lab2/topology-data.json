@@ -1,14 +1,14 @@
 {
-  "name": "device",
+  "name": "Lab2",
   "type": "clab",
   "clab": {
     "config": {
       "prefix": "clab",
       "mgmt": {
         "network": "clab_basic_custom_mgmt",
-        "bridge": "br-1273b2c67022",
-        "ipv4-subnet": "192.168.1.0/24",
-        "ipv4-gw": "192.168.1.1",
+        "bridge": "br-89428cf094d8",
+        "ipv4-subnet": "192.168.123.0/24",
+        "ipv4-gw": "192.168.123.1",
         "mtu": 1500,
         "external-access": true
       }
@@ -18,28 +18,28 @@
     "R1": {
       "index": "0",
       "shortname": "R1",
-      "longname": "clab-device-R1",
-      "fqdn": "R1.device.io",
+      "longname": "clab-Lab2-R1",
+      "fqdn": "R1.Lab2.io",
       "group": "",
-      "labdir": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/clab-device/R1",
+      "labdir": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/clab-Lab2/R1",
       "kind": "ceos",
       "image": "sebbycorp/ceosimage:latest",
       "mgmt-net": "",
       "mgmt-intf": "Management0",
-      "mgmt-ipv4-address": "",
-      "mgmt-ipv4-prefix-length": 0,
+      "mgmt-ipv4-address": "192.168.123.2",
+      "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
-      "mac-address": "00:1c:73:45:cb:c3",
+      "mac-address": "00:1c:73:e3:35:24",
       "labels": {
-        "clab-mgmt-net-bridge": "br-1273b2c67022",
+        "clab-mgmt-net-bridge": "br-89428cf094d8",
         "clab-node-group": "",
         "clab-node-kind": "ceos",
-        "clab-node-lab-dir": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/clab-device/R1",
+        "clab-node-lab-dir": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/clab-Lab2/R1",
         "clab-node-name": "R1",
         "clab-node-type": "",
         "clab-topo-file": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/Device.yaml",
-        "containerlab": "device"
+        "containerlab": "Lab2"
       },
       "port-bindings": [
       ]

@@ -1,0 +1,36 @@
+! Startup-config last modified at Tue Feb 20 19:01:03 2024 by root
+! device: R1 (cEOSLab, EOS-4.31.1F-34556000.4311F (engineering build))
+!
+no aaa root
+!
+username admin privilege 15 role network-admin secret sha512 $6$W5ITpom83Eip5UOM$5oekgI.12bNh4cKAqk848ZiP4JIz6QL44yetbmda1Pug5QmZDOzP0E3onGljRNHJnpxhjmalgk8iVpOLivfLH.
+!
+transceiver qsfp default-mode 4x10G
+!
+service routing protocols model multi-agent
+!
+hostname R1
+!
+spanning-tree mode mstp
+!
+system l1
+   unsupported speed action error
+   unsupported error-correction action error
+!
+management api http-commands
+   no shutdown
+!
+management api gnmi
+   transport grpc default
+!
+management api netconf
+   transport ssh default
+!
+interface Management0
+   ip address 192.168.123.2/24
+!
+no ip routing
+!
+ip route 0.0.0.0/0 192.168.123.1
+!
+end
