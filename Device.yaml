@@ -1,9 +1,10 @@
 ---
-name: device
+name: Lab2
+
 
 mgmt:
   network: clab_basic_custom_mgmt
-  ipv4-subnet: 192.168.1.0/24
+  ipv4-subnet: 192.168.123.0/24
 
 topology:
   kinds:
@@ -14,10 +15,6 @@ topology:
     memory: 2Gb
   nodes:
     R1:
-      mgmt-ipv4: 192.168.1.1
-   # R2:
-    
-    #  mgmt-ipv4: 192.168.1.2
+      mgmt-ipv4: 192.168.123.2
 
-#  links:
- #   - endpoints: ["R1:eth1_1", "R2:eth1_1"]
+
