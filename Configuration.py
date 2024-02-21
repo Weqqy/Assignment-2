@@ -9,15 +9,15 @@ device = {
     'username': 'admin',
     'password': password,
     # 'port': 22,  # Change if using a different SSH port
-    #'secret': 'enable_password',  # Uncomment and provide enable password if necessary
+    'secret': password,  # Uncomment and provide enable password if necessary
 }
 # Config device
-config = {
+config = [
     'interface lo0',
     'ip address 10.1.1.1 255.255.255.255',
-    'exit'
+    'exit',
     'end',
-}
+]
 # Connect to the device
 try:
     net_connect = ConnectHandler(**device)

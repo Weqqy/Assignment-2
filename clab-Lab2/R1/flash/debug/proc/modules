@@ -106,7 +106,7 @@ x86_pkg_temp_thermal 20480 0 - Live 0xffffffffc1092000
 intel_powerclamp 24576 0 - Live 0xffffffffc1290000
 coretemp 24576 0 - Live 0xffffffffc1017000
 snd_seq 77824 2 snd_seq_midi,snd_seq_midi_event, Live 0xffffffffc13a1000
-kvm_intel 368640 12 - Live 0xffffffffc13b6000
+kvm_intel 368640 24 - Live 0xffffffffc13b6000
 snd_seq_device 16384 3 snd_seq_midi,snd_rawmidi,snd_seq, Live 0xffffffffc0fb1000
 kvm 1032192 1 kvm_intel, Live 0xffffffffc116f000
 dell_wmi 24576 0 - Live 0xffffffffc1163000
@@ -170,7 +170,7 @@ usbhid 65536 0 - Live 0xffffffffc0578000
 hid 151552 2 hid_generic,usbhid, Live 0xffffffffc0631000
 uas 28672 0 - Live 0xffffffffc03a2000
 usb_storage 77824 1 uas, Live 0xffffffffc0444000
-i915 3117056 237 - Live 0xffffffffc0a43000
+i915 3117056 243 - Live 0xffffffffc0a43000
 nouveau 2306048 0 - Live 0xffffffffc07ba000
 mxm_wmi 16384 1 nouveau, Live 0xffffffffc03df000
 drm_ttm_helper 16384 1 nouveau, Live 0xffffffffc0373000
@@ -194,7 +194,7 @@ i2c_algo_bit 16384 3 i915,nouveau,igb, Live 0xffffffffc0573000
 ahci 45056 2 - Live 0xffffffffc055f000
 cryptd 24576 2 ghash_clmulni_intel,crypto_simd, Live 0xffffffffc0416000
 e1000e 299008 0 - Live 0xffffffffc068b000
-drm 622592 16 vmwgfx,i915,nouveau,drm_ttm_helper,ttm,drm_kms_helper, Live 0xffffffffc0598000
+drm 622592 17 vmwgfx,i915,nouveau,drm_ttm_helper,ttm,drm_kms_helper, Live 0xffffffffc0598000
 i2c_smbus 20480 1 i2c_i801, Live 0xffffffffc058f000
 intel_lpss_pci 24576 0 - Live 0xffffffffc0552000
 xhci_pci 24576 0 - Live 0xffffffffc0546000
