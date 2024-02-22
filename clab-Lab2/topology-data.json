@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab_basic_custom_mgmt",
-        "bridge": "br-65663787059d",
+        "bridge": "br-6db3d500cbe6",
         "ipv4-subnet": "192.168.123.0/24",
         "ipv4-gw": "192.168.123.1",
         "mtu": 1500,
@@ -30,9 +30,9 @@
       "mgmt-ipv4-prefix-length": 24,
       "mgmt-ipv6-address": "",
       "mgmt-ipv6-prefix-length": 0,
-      "mac-address": "00:1c:73:8d:a1:37",
+      "mac-address": "00:1c:73:bb:b0:4f",
       "labels": {
-        "clab-mgmt-net-bridge": "br-65663787059d",
+        "clab-mgmt-net-bridge": "br-6db3d500cbe6",
         "clab-node-group": "",
         "clab-node-kind": "ceos",
         "clab-node-lab-dir": "/home/SHERNET/barbecam/Documents/Sheridan/Assignment-2/clab-Lab2/R1",

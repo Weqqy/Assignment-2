@@ -1,3 +1,5 @@
+# Configuration Commands
+
 from netmiko import ConnectHandler
 from getpass import getpass
 
@@ -35,6 +37,5 @@ print(output)
 output = net_connect.send_command('show ip interface brief')
 print(output)
 
-# Disconnect from the device
-net_connect.disconnect()
-print("Disconnected from the device.")
+print("End of Script")
+
