@@ -1,3 +1,4 @@
+dummy 16384 0 - Live 0xffffffffc1721000
 nfnetlink_queue 24576 0 - Live 0xffffffffc1683000
 falcon_lsm_serviceable 1650688 1 - Live 0xffffffffc1ca2000 (PE)
 falcon_nf_netcontain 20480 1 - Live 0xffffffffc15aa000 (PE)
@@ -170,7 +171,7 @@ usbhid 65536 0 - Live 0xffffffffc0578000
 hid 151552 2 hid_generic,usbhid, Live 0xffffffffc0631000
 uas 28672 0 - Live 0xffffffffc03a2000
 usb_storage 77824 1 uas, Live 0xffffffffc0444000
-i915 3117056 243 - Live 0xffffffffc0a43000
+i915 3117056 240 - Live 0xffffffffc0a43000
 nouveau 2306048 0 - Live 0xffffffffc07ba000
 mxm_wmi 16384 1 nouveau, Live 0xffffffffc03df000
 drm_ttm_helper 16384 1 nouveau, Live 0xffffffffc0373000
